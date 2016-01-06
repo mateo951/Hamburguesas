@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hamburguesas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLO-F6-H4h">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="V1H-zx-9Cs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="V1H-zx-9Cs"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="V1H-zx-9Cs"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KD-yQ-laQ">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gCw-Nx-MOo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gCw-Nx-MOo"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="gCw-Nx-MOo"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesas en el mundo!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qW-D0-DAB">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="311" id="PKq-Kz-2wf"/>
+                                    <constraint firstAttribute="height" constant="42" id="iKp-2h-g2C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="PKq-Kz-2wf"/>
+                                        <exclude reference="iKp-2h-g2C"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="PKq-Kz-2wf"/>
+                                        <include reference="iKp-2h-g2C"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSs-Ma-VnC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="ZFx-mc-7vY"/>
+                                    <constraint firstAttribute="width" constant="217" id="jkh-CE-839"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Quiero Una Hambuerguesa!"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ZFx-mc-7vY"/>
+                                        <exclude reference="jkh-CE-839"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ZFx-mc-7vY"/>
+                                        <include reference="jkh-CE-839"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="botonAletorio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mXX-nD-3vS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5qW-D0-DAB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3JI-Nb-efD"/>
+                            <constraint firstItem="5qW-D0-DAB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="62" id="Dqp-XR-wtc"/>
+                            <constraint firstItem="sLO-F6-H4h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GJA-H3-aNp"/>
+                            <constraint firstItem="sLO-F6-H4h" firstAttribute="top" secondItem="5qW-D0-DAB" secondAttribute="bottom" constant="83" id="OnY-JH-AWZ"/>
+                            <constraint firstItem="SSs-Ma-VnC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vnb-2E-Vt8"/>
+                            <constraint firstItem="4KD-yQ-laQ" firstAttribute="top" secondItem="sLO-F6-H4h" secondAttribute="bottom" constant="37" id="bNv-wB-LU4">
+                                <variation key="widthClass=compact" constant="60"/>
+                            </constraint>
+                            <constraint firstItem="SSs-Ma-VnC" firstAttribute="top" secondItem="4KD-yQ-laQ" secondAttribute="bottom" constant="92" id="geX-j9-QZ9">
+                                <variation key="widthClass=compact" constant="130"/>
+                            </constraint>
+                            <constraint firstItem="4KD-yQ-laQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m2d-LC-FDO"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="sLO-F6-H4h"/>
+                                <exclude reference="4KD-yQ-laQ"/>
+                                <exclude reference="5qW-D0-DAB"/>
+                                <exclude reference="SSs-Ma-VnC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3JI-Nb-efD"/>
+                                <exclude reference="Dqp-XR-wtc"/>
+                                <exclude reference="GJA-H3-aNp"/>
+                                <exclude reference="OnY-JH-AWZ"/>
+                                <exclude reference="bNv-wB-LU4"/>
+                                <exclude reference="m2d-LC-FDO"/>
+                                <exclude reference="Vnb-2E-Vt8"/>
+                                <exclude reference="geX-j9-QZ9"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="sLO-F6-H4h"/>
+                                <include reference="4KD-yQ-laQ"/>
+                                <include reference="5qW-D0-DAB"/>
+                                <include reference="SSs-Ma-VnC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="3JI-Nb-efD"/>
+                                <include reference="Dqp-XR-wtc"/>
+                                <include reference="GJA-H3-aNp"/>
+                                <include reference="OnY-JH-AWZ"/>
+                                <include reference="bNv-wB-LU4"/>
+                                <include reference="m2d-LC-FDO"/>
+                                <include reference="Vnb-2E-Vt8"/>
+                                <include reference="geX-j9-QZ9"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="textoHambuguesa" destination="4KD-yQ-laQ" id="huX-C9-pMg"/>
+                        <outlet property="textoPais" destination="sLO-F6-H4h" id="6kU-6U-GBm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="337"/>
+        </scene>
+    </scenes>
+</document>
